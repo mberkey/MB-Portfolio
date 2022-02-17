@@ -6,7 +6,7 @@ export default class Hello extends Component {
             <>        
                 <div className="jumbotron m-9 p-5 mb-4 fluid text-end">
                     <div className="col-md-12">
-                        <div className="h-50 p-5 text-left"  className='hello'>
+                        <div className="h-50 p-5 text-left hello">
                          <h1>Hey, I'm <b>Matt</b></h1>
                          <p>Systems Software Engineer <br /> Blockchain Enthusiast <br />Doggo Dad </p>                                               
                          <br />

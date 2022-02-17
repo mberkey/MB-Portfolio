@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Container, ListGroup, Row, Col} from 'react-bootstrap';
-import Me from '../images/imageedit_1_9843300596.png';
+
 const listGroupColor = {backgroundColor: "#1D1F21"
                         ,color: '#f8f8f2'};
 
@@ -12,7 +12,7 @@ export default class About extends Component {
                 <Container>
                     <Row>
                             <Col>
-                                <div className="h-80 p-3" className='about'>
+                                <div className="h-80 p-3 about">
                                     <h2>Who is <b>Matt Berkey</b></h2>
                                 </div>
                             </Col>
