@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=Courier+Prime:ital@0;1&family=Noto+Sans+KR:wght@100&family=Varela+Round&display=swap');
+
+body {
+  margin: 0;
+  background: #1D1F21 !important;
+  font-family: 'ASAP'!important;
+  color: 	#f8f8f2 !important;
+  position: relative;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 368px) {
+  .jumbotron h1 {
+      font-size: 5em;      
+  }
+  .jumbotron h2 {
+    font-size: 4em;      
+  }
+  .jumbotron p{     
+    font-size: 20px;
+  }
+
+  .carousel {
+    width:280px;
+    height:330px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .jumbotron h1 {
+      font-size: 10em;
+  }
+
+  .jumbotron h2 {
+    font-size: 5em;      
+  }
+  .jumbotron p{     
+    font-size: 30px;
+  }
+
+  .carousel {
+    width:540px;
+    height:440px;    
+  }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  .jumbotron h1 {
+      font-size: 11em;
+  }
+
+  .jumbotron h2 {
+    font-size: 6em;      
+  }
+  .jumbotron .hello p{     
+    font-size: 40px;
+  }
+
+  .jumbotron .about p{     
+    font-size: 30px;
+  }
+
+  .carousel {
+    width:25em;
+    height:20em;
+  }
+}
+
+.jumbotron h1{  
+  color: 	#3272a4;
+}
+
+.jumbotron h2{  
+  color: 	#3272a4;
+}
+
+.jumbotron .hello p{
+  color: #bd974c !important;  
+  text-align: end;
+}
+
+.jumbotron .about p{
+  color: #bd974c !important;
+  margin: .02em;  
+  text-align: start;
+}
+
+.jumbotron .about {
+  margin-left: 4em;  
+}
+
+#email {
+  font-size: 1.75em;
+}
+
+#email:hover {
+  color:#8be9fd;
+}
+
+.jumbotron .experience p{
+  color: #bd974c !important;
+  margin: .02em;  
+  text-align: start;
+}
+
+.carousel-indicators { visibility: hidden; }
+
+#skills{
+  color: #bd974c !important;
+  text-align: start;
+}
+
+#blurb{
+  color: #bd974c !important;
+  text-align: start;
+}
+
+.Dets {
+  color: #bd974c !important;
+  margin: .02em;  
+  text-align: start;
+}
+
+#contactLink{
+  display: inline-block;
+}
+
+.jumbotron .experience {
+  margin-left: 4em;  
+}
+
+.jumbotron .contact h2{
+  color: #ff5555 !important;
+}
+
+.jumbotron button{
+  color: #50fa7b !important; 
+}
+
+.jumbotron button::after {
+  color: #50fa7b; 
+}
+
+.jumbotron button:hover {
+  color: #ff79c6 !important;
+  background-color: #1D1F21 !important;
+}
+
+nav :hover{
+  color: #ff79c6 !important;
+}
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;     
+}
+
+.listGroup {
+  background-color: #1D1F21 !important;
+}
+
+#myPic {
+  height: 25em !important;
+  width: 23em;
+}
+
+.contact {
+  color: #ff5555;
+}
