@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Container, ListGroup, Row, Col} from 'react-bootstrap';
-
+import Me from '../images/imageedit_1_9843300596.png';
 const listGroupColor = {backgroundColor: "#1D1F21"
                         ,color: '#f8f8f2'};
 
