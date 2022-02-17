@@ -67,6 +67,11 @@ body {
     font-size: 30px;
   }
 
+  .jumbotron {
+
+    background-color: #1D1F21 !important;
+  }
+
   .carousel {
     width:25em;
     height:20em;
