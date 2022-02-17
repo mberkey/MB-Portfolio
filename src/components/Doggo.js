@@ -17,7 +17,7 @@ export default class Doggos extends Component {
                             </Col>
                             <Col >
                             <p className='Dets'>Sterling, Scarlette & Sasha</p>
-                            <Carousel className='carousel-dark'>
+                            <Carousel controls={false} >
                             <Carousel.Item>
                                 <img
                                 className="d-block w-100"
@@ -52,6 +52,10 @@ export default class Doggos extends Component {
                             </Col>
                         </Row> 
                     </Container> 
+                    <br />
+                    <br />
+                    <br />
+                    <br />
                 </div>
             </>
         )

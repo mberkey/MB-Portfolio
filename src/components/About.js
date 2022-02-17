@@ -1,6 +1,6 @@
 import React, {Component} from "react";
 import {Container, ListGroup, Row, Col} from 'react-bootstrap';
-import Me from '../images/imageedit_1_9843300596.png';
+import Me from '../images/meGC.jpg';
 const listGroupColor = {backgroundColor: "#1D1F21"
                         ,color: '#f8f8f2'};
 
@@ -21,7 +21,7 @@ export default class About extends Component {
                                 <p className='Dets'>A Systems Software Engineer at Norplas Industries Designing, Developing, Maintaining: <br/></p>
                                 
                                 
-                                    <ListGroup className='text-start'>                                
+                                    <ListGroup id='listAbout'>                                
                                         <ListGroup.Item style={listGroupColor}>•	Inventory Control Applications</ListGroup.Item>
                                         <ListGroup.Item style={listGroupColor}>•	SQL Databases</ListGroup.Item>
                                         <ListGroup.Item style={listGroupColor}>•	Web Apps and MUCH more.</ListGroup.Item>                                 
@@ -31,7 +31,7 @@ export default class About extends Component {
                                 <p class='Dets'>Loves Gaming and Poker</p>                            
                                 <img src={Me} className='img-fluid' id='myPic' alt='...' />                            
                                 <br/>
-                                <p className='Dets text-end'>I will persist. I will win. <br/> - Og Mandino</p>
+                                <p class='ogQuote'>I will persist. I will win. <br/> - Og Mandino</p>
                             </Col>
                     </Row>                    
                 </Container>

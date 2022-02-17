@@ -11,8 +11,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 368px) {
   .jumbotron h1 {
@@ -67,15 +65,14 @@ body {
     font-size: 30px;
   }
 
-  .jumbotron {
-
-    background-color: #1D1F21 !important;
-  }
-
   .carousel {
     width:25em;
     height:20em;
   }
+}
+
+.jumbotron {
+  background-color: #1D1F21 !important;
 }
 
 .jumbotron h1{  
@@ -117,6 +114,10 @@ body {
 
 .carousel-indicators { visibility: hidden; }
 
+.carousel p {
+  color: #1D1F21 !important;
+}
+
 #skills{
   color: #bd974c !important;
   text-align: start;
@@ -127,10 +128,23 @@ body {
   text-align: start;
 }
 
+img{
+  border-radius: 20%;
+}
+
+#listAbout{  
+  text-align: left; 
+}
+
 .Dets {
   color: #bd974c !important;
   margin: .02em;  
-  text-align: start;
+  text-align: left;
+}
+
+.ogQuote{
+  color: #bd974c !important;
+  text-align: right;
 }
 
 #contactLink{
@@ -174,8 +188,8 @@ nav :hover{
 }
 
 #myPic {
-  height: 25em !important;
-  width: 23em;
+  height: auto;
+  width: auto;
 }
 
 .contact {
