@@ -22,8 +22,8 @@ export default class Floaters extends Component {
             <ul className="floaters">                            
                 <li><CodeSlash /></li>
                 <li>;</li>
-                <li className="floaty">{hello}</li>       
-                <li className="floaty">{about}</li>
+                <li className="floaty">{about}</li>       
+                <li className="floaty">{hello}</li>
                 <li>//</li>
                 <li>[ ]</li>
                 <li className="floaty">{skills}</li>  

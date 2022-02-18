@@ -23,7 +23,8 @@ export default class Contact extends Component {
                     <a href="mailto:matthew.berkey@hotmail.com" className='navLink' style={linkStyle}><span id='email'>matthew.berkey@hotmail.com</span></a>
                     <h3>OR</h3>
                     <a href={cryptoJobLink} id="cryptoLink" target="_blank" rel="noopener">Hire me on <b>Crypto Jobs</b> List</a>
-                 </div> 
+                 </div>
+                 
             </div> 
         </div>
   

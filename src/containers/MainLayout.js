@@ -16,7 +16,7 @@ export default class MainLayout extends Component {
         return(
             <main>                   
                 <BrowserRouter>
-                     <Header />      
+                     <Header />  
                      <Routes>                                                             
                         <Route exact path='/Hello' element={<Hello />}/>                        
                         <Route path='About' element={<About />}/>
