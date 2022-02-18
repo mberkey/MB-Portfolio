@@ -182,6 +182,20 @@ nav :hover{
   background-color: #1D1F21 !important;
 }
 
+#cryptoLink{
+  display: inline-block; 
+  border-radius: 3px; 
+  color: #ff5555; 
+  text-align: center; 
+  width: 18em;
+  font-size: 1.8em;
+  text-decoration: none;
+}
+
+#cryptoLink:hover {
+  color:#8be9fd;
+}
+
 #myPic {
   height: auto;
   width: auto;
