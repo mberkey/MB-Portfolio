@@ -1,0 +1,9 @@
+[build]
+
+
+[[redirects]]
+  from = "/"
+  to = "/hello"
+  status = 200
+ 
+

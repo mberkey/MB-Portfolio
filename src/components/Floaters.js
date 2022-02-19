@@ -33,6 +33,7 @@ export default class Floaters extends Component {
                 <li className="floaty">{experience}</li>
                 <li className="floaty">{contact}</li>
             </ul>
+            
             </>
         )
     }
