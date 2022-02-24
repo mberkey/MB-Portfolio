@@ -1,11 +1,9 @@
 import React, {Component} from "react";
 
-const cryptoJobLink = "https://cryptojobslist.com/talent/profile/crypto-professional-remote-pccj9fvkpb";
+import { Container,Row, Col } from "react-bootstrap";
 
-const linkStyle = {
-  textDecoration: 'none'  
-  , color: '#ff5555' 
-}
+const cryptoJobLink = "https://cryptojobslist.com/talent/profile/crypto-professional-remote-pccj9fvkpb";
+const gitHubLink = "https://github.com/mberkey?tab=repositories";
 
 export default class Contact extends Component {
     render(){
@@ -19,10 +17,36 @@ export default class Contact extends Component {
                     <br/>
                     <br/>
                     <br/>
-                    <h2>Contact Via <b>Email</b></h2>
-                    <a href="mailto:matthew.berkey@hotmail.com" className='navLink' style={linkStyle}><span id='email'>matthew.berkey@hotmail.com</span></a>
-                    <h3>OR</h3>
-                    <a href={cryptoJobLink} id="cryptoLink" target="_blank" rel="noopener">Hire me on <b>Crypto Jobs</b> List</a>
+                        <Row className="justify-content-md-center">
+                            <Col md="auto">
+                                <h2>Contact Via <b>Email</b></h2>
+                            </Col>
+                        </Row>
+                        <Row className="justify-content-md-center">
+                            <Col md="auto">
+                                <a href="mailto:matthew.berkey@hotmail.com" className='contactLink'>matthew.berkey@hotmail.com</a>                    
+                            </Col>
+                        </Row>
+                        <Row className="justify-content-md-center">                            
+                            <Col md="auto">
+                                <h3>OR</h3>
+                            </Col>
+                        </Row>
+                        <Row className="justify-content-md-center">
+                            <Col md="auto">
+                                <a href={cryptoJobLink} target="_blank" className='contactLink' rel="noopener">Hire me on <b>Crypto Jobs</b> List</a>
+                            </Col>
+                        </Row>
+                        <Row className="justify-content-md-center">
+                            <Col md="auto">
+                                <h3>ALSO</h3>
+                            </Col>
+                        </Row>
+                        <Row className="justify-content-md-center">
+                            <Col md="auto">
+                    <a href={gitHubLink}  target="_blank" className='contactLink' rel="noopener">Yes, I have a <b>GitHub</b></a>
+                    </Col>
+                        </Row>
                  </div>
                  
             </div> 

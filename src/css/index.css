@@ -100,14 +100,6 @@ body {
   margin-left: 4em;  
 }
 
-#email {
-  font-size: 1.75em;
-}
-
-#email:hover {
-  color:#8be9fd;
-}
-
 .jumbotron .experience p{
   color: #bd974c !important;
   margin: .02em;  
@@ -182,7 +174,11 @@ nav :hover{
   background-color: #1D1F21 !important;
 }
 
-#cryptoLink{
+.contactLink:hover {
+  color:#8be9fd;
+}
+
+.contactLink{
   display: inline-block; 
   border-radius: 3px; 
   color: #ff5555; 
@@ -190,10 +186,6 @@ nav :hover{
   width: 18em;
   font-size: 1.8em;
   text-decoration: none;
-}
-
-#cryptoLink:hover {
-  color:#8be9fd;
 }
 
 #myPic {
