@@ -8,7 +8,7 @@ export default class About extends Component {
     render(){
         return(
             <>
-                <div class="jumbotron m-6 p-2 mb-1 fluid rounded-3 text-center">
+                <div className="jumbotron m-6 p-2 mb-1 fluid rounded-3 text-center">
                 <Container>
                     <Row>
                             <Col>
@@ -28,12 +28,12 @@ export default class About extends Component {
                                     </ListGroup>                             
                                     
                                 
-                                <p class='Dets'>Loves Gaming and Poker</p>                            
+                                <p className='Dets'>Loves Gaming and Poker</p>                            
                             </Col>
                             <Col>
                                 <img src={Me} className='img-fluid' id='myPic' alt='...' />                            
                                 <br/>
-                                <p class='ogQuote'>I will persist. I will win. <br/> - Og Mandino</p>
+                                <p className='ogQuote'>I will persist. I will win. <br/> - Og Mandino</p>
                             </Col>
                     </Row>                    
                 </Container>

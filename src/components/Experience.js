@@ -11,7 +11,7 @@ const contact = <Link id='contactLink' className='navLink' style={linkStyle} to=
 const Experience = () =>{
 
         return(
-        <div class="jumbotron m-8 p-2 mb-1 fluid text-start">
+        <div className="jumbotron m-8 p-2 mb-1 fluid text-start">
             <Container>
                 <Row>
                     <Col >

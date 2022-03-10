@@ -6,7 +6,7 @@ export default class Skills extends Component {
     render(){
         return(
             <>
-                <div class="jumbotron m-6 p-2 mb-1 fluid text-start">
+                <div className="jumbotron m-6 p-2 mb-1 fluid text-start">
                 <Container>
                     <Row>
                             <Col >

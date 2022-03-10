@@ -9,7 +9,7 @@ export default class Doggos extends Component {
     render(){
         return(
             <>
-                <div class="jumbotron m-6 p-2 mb-1 fluid rounded-3 text-center">
+                <div className="jumbotron m-6 p-2 mb-1 fluid rounded-3 text-center">
                 <Container>
                     <Row>
                             <Col >

@@ -9,8 +9,8 @@ export default class Contact extends Component {
     render(){
         return(
 
-            <div class="jumbotron m-6 p-2 mb-1 fluid rounded-3 text-center">
-            <div class="col-md-12">
+            <div className="jumbotron m-6 p-2 mb-1 fluid rounded-3 text-center">
+            <div className="col-md-12">
                 <div className="h-80 p-3 contact">
                     <br/>
                     <br/>
