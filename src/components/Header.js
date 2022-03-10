@@ -30,21 +30,20 @@ const Header = () => {
       
       setToggleAnimation = toggleAnimation === 'paused' ? 'running' : 'paused';
 
-    setAnimation(setToggleAnimation);
-    console.log(toggleAnimation);
+      setAnimation(setToggleAnimation);
+      //console.log(toggleAnimation);
     
-    let liElems = document.getElementsByTagName('li');
-    console.log(liElems.length);
-    for(let li of liElems){
+      let liElems = document.getElementsByTagName('li');
+      //console.log(liElems.length);
+      for(let li of liElems){
         li.style.animationPlayState = toggleAnimation;
-    }
-    
+      }    
   }
     return(
         <Navbar bg="" variant="dark">
           <Container fluid >
             <Nav>
-            <ButtonGroup size='lg' >
+            <ButtonGroup size='md' >
               <Button  style={btnStyle}>{hello}</Button>
               <Button  style={btnStyle}>{about}</Button>
               <Button  style={btnStyle}>{skills}</Button>
