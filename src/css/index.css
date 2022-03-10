@@ -177,17 +177,15 @@ nav :hover{
 }
 
 .contactLink:hover {
-  color:#8be9fd;
+  color:#8be9fd !important;
 }
 
 .contactLink{
   display: inline-block; 
-  border-radius: 3px; 
   color: #ff5555; 
-  text-align: center; 
-  width: 18em;
-  font-size: 1.8em;
-  text-decoration: none;
+  text-align: start; 
+  width: 15em;
+  font-size: 1.5em;
 }
 
 #myPic {
