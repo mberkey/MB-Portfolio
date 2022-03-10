@@ -5,10 +5,7 @@ import Footer from './components/Footer';
 import Hello from './components/Hello';
 import { useEffect } from 'react';
 function App() {
-  useEffect(()=>{
-    console.log('useEffect');
-   // return <Hello/>
-  })
+
   return (
      <>   
       
