@@ -29,6 +29,8 @@ export default class About extends Component {
                                     
                                 
                                 <p class='Dets'>Loves Gaming and Poker</p>                            
+                            </Col>
+                            <Col>
                                 <img src={Me} className='img-fluid' id='myPic' alt='...' />                            
                                 <br/>
                                 <p class='ogQuote'>I will persist. I will win. <br/> - Og Mandino</p>

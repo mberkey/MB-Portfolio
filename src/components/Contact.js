@@ -44,8 +44,8 @@ export default class Contact extends Component {
                         </Row>
                         <Row className="justify-content-md-center">
                             <Col md="auto">
-                    <a href={gitHubLink}  target="_blank" className='contactLink' rel="noopener">Yes, I have a <b>GitHub</b></a>
-                    </Col>
+                                <a href={gitHubLink}  target="_blank" className='contactLink' rel="noopener">Yes, I have a <b>GitHub</b></a>
+                            </Col>
                         </Row>
                  </div>
                  
