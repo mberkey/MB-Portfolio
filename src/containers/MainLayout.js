@@ -18,6 +18,7 @@ export default class MainLayout extends Component {
                      <Header />  
                      <Routes>                                                             
                         <Route exact path='/' element={<Hello />}/>                        
+                        <Route exact path='Hello' element={<Hello />}/>                                               
                         <Route path='About' element={<About />}/>
                         <Route path='Skills' element={<Skills />}/>
                         <Route path='Experience' element={<Experience />}/>
