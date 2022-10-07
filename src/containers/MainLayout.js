@@ -1,7 +1,6 @@
 import React, {Component} from "react";
 import Skills from '../components/Skills';
 import About from '../components/About';
-
 import Hello from '../components/Hello';
 import Doggo from '../components/Doggo';
 import Floaters from '../components/Floaters';
@@ -14,11 +13,11 @@ export default class MainLayout extends Component {
 
     render(){
         return(
-            <main>                   
+            <>                   
                 <BrowserRouter>
                      <Header />  
                      <Routes>                                                             
-                        <Route exact path='/Hello' element={<Hello />}/>                        
+                        <Route exact path='/' element={<Hello />}/>                        
                         <Route path='About' element={<About />}/>
                         <Route path='Skills' element={<Skills />}/>
                         <Route path='Experience' element={<Experience />}/>
@@ -32,7 +31,7 @@ export default class MainLayout extends Component {
                     <Floaters />                  
                   
                 </BrowserRouter>                
-            </main>
+            </>
         )
     }
 }
