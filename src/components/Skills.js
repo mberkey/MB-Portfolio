@@ -21,11 +21,12 @@ const Skills =()=> {
                                     <h2>What technical <b>skills</b> does he have?</h2>                                                                                                                    
                                 </div>
                             </Col>
-                            <Col>                        
+                            <Col style={{left: '7vw'}}>                        
                                 <Row className='align-items-start'>
                                     <p id='skills'>Not To Brag But Here's A Few<br/></p>  
                                 </Row>
-                                <Row>                                                     
+                                <Row>           
+                                    <Col>
                                         <Carousel activeIndex={index} onSelect={handleSelect} controls={true} nextIcon={<></>}>
                                             <CarouselItem>
                                             Modern Front End solutions like <span style={popSkills}><b>React</b></span>, <span style={popSkills}><b>Typescript</b></span>, <span style={popSkills}><b>JavaScript.</b></span>                                
@@ -55,6 +56,7 @@ const Skills =()=> {
                                             More details and information with request.
                                             </CarouselItem>
                                         </Carousel>                                                   
+                                        </Col>                                          
                                     </Row>
 
                                     <Row>
