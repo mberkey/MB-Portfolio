@@ -22,8 +22,8 @@ export default class About extends Component {
                                 
                                 
                                     <ListGroup id='listAbout'>                                
-                                        <ListGroup.Item style={listGroupColor}>•	Inventory Control Applications</ListGroup.Item>
-                                        <ListGroup.Item style={listGroupColor}>•	SQL Databases</ListGroup.Item>
+                                        <ListGroup.Item style={listGroupColor}>•	Inventory and System Control applications as Console applications, Single Page applications and Mobile Web apps written in VB, React and Typescript all relying on Web services and APIs to get data from our SQL Databases.</ListGroup.Item>
+                                        <ListGroup.Item style={listGroupColor}>•	SQL Database Administration, Query Optimization, Debugging </ListGroup.Item>
                                         <ListGroup.Item style={listGroupColor}>•	Web Apps and MUCH more.</ListGroup.Item>                                 
                                     </ListGroup>                             
                                     

@@ -168,6 +168,10 @@ img{
   background-color: #1D1F21 !important;
 }
 
+.carousel-control-next-icon{
+  opacity: 1 !important
+}
+
 nav :hover{
   color: #ff79c6 !important;
 }

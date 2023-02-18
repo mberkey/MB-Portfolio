@@ -15,7 +15,7 @@ const Experience = () =>{
             <Container>
                 <Row>
                     <Col >
-                        <h2>How about <b>experience</b>?</h2>
+                        <h2>How about work <b>experience</b>?</h2>
                     </Col>
                     <Col className="experience">
                                     <p>2018 - Present</p> 
@@ -28,7 +28,7 @@ const Experience = () =>{
                                     <h5>Graduate of Univ. Of Toledo</h5>  
                                     <h5>Bachelor of Science in Computer Science & Engineering Technology</h5>
                                     <br />   
-                                    <p >Blockchain & Web3 Portfolio Loading...</p>
+                                    
                                     <br /> 
                                     <br /> 
                                     <p>If you're still reading, first of all <b>thank you</b>, hope you like my page.<br/> If would like to know more about me and how my skills could be useful to you click {contact}!</p>

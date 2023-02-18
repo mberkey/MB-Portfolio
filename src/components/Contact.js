@@ -4,7 +4,7 @@ import { Row, Container, Col } from "react-bootstrap";
 
 const cryptoJobLink = "https://cryptojobslist.com/talent/profile/crypto-professional-remote-pccj9fvkpb";
 const gitHubLink = "https://github.com/mberkey?tab=repositories";
-
+const linkedInLink = "www.linkedin.com/in/matthew-berkey-0566506b"
 export default class Contact extends Component {
     render(){
         return(        
@@ -23,6 +23,9 @@ export default class Contact extends Component {
                                 <a href={cryptoJobLink} target="_blank" className='contactLink' >Hire me on <b>Crypto Jobs</b> List</a>
                             
                                 <a href={gitHubLink}  target="_blank" className='contactLink' rel="noopener">Yes, I have a <b>GitHub</b></a>
+
+                                <a href={linkedInLink}  target="_blank" className='contactLink' rel="noopener">Here is my <b>LinkedIN</b></a>
+                                
                             </Col>
                         </Row>
                    </Col>
