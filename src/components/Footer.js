@@ -6,6 +6,7 @@ export default class Footer extends Component {
         return(
             <div id='footer'>
                 <Col className='col-md text-center'>
+                    <p className='text-muted align-center'>&copy; 2023 Matt Berkey</p>
                 </Col>
             </div>
         )
