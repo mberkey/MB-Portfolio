@@ -63,10 +63,6 @@ body {
     font-size: 40px;
   }
 
-  .jumbotron .about p{     
-    font-size: 30px;
-  }
-
   .carousel {
     width:25em;
     height:20em;
@@ -92,14 +88,11 @@ body {
   text-align: end;
 }
 
-.jumbotron .about p{
+.jumbotron .about p{  
+  font-size: 30px;
   color: #bd974c !important;
   margin: .02em;  
   text-align: start;
-}
-
-.jumbotron .about {
-  margin-left: 4em;  
 }
 
 .jumbotron .experience p{
@@ -119,18 +112,29 @@ body {
   text-align: start;
 }
 
+.p-3{
+  padding: 0 !important;
+}
+
 #blurb{
   color: #bd974c !important;
   text-align: start;
-}
-
-img{
-  border-radius: 20%;
+  font-size: medium;
+  font-style: italic;
 }
 
 #listAbout{  
   text-align: left; 
 }
+
+.carousel-col{
+  height: 26vh;
+}
+
+#img-fluid{
+  height:38vh;
+}
+
 
 .Dets {
   color: #bd974c !important;
@@ -192,15 +196,9 @@ nav :hover{
   font-size: 1.5em;
 }
 
-#myPic {
-  height: auto;
-  width: auto;
-}
-
 .contact {
   color: #ff5555;
 }
-
 
 .App {
   text-align: center;

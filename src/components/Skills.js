@@ -13,11 +13,11 @@ const Skills =()=> {
     };
         return(
             <>
-                <div className="jumbotron m-6 p-2 mb-1 fluid text-start">
+                <div className="jumbotron m-1 p-1 mb-1 fluid text-start">
                     <Container>
                         <Row>
                             <Col >
-                                <div className="h-80 p-3" >
+                                <div className="h-80 p-3 skillz" >
                                     <h2>What technical <b>skills</b> does he have?</h2>                                                                                                                    
                                 </div>
                             </Col>
@@ -26,7 +26,7 @@ const Skills =()=> {
                                     <p id='skills'>Not To Brag But Here's A Few<br/></p>  
                                 </Row>
                                 <Row>           
-                                    <Col>
+                                    <Col className='carousel-col'>
                                         <Carousel activeIndex={index} onSelect={handleSelect} controls={true} nextIcon={<></>}>
                                             <CarouselItem>
                                             Modern Front End solutions like <span style={popSkills}><b>React</b></span>, <span style={popSkills}><b>Typescript</b></span>, <span style={popSkills}><b>JavaScript.</b></span>                                
@@ -58,10 +58,10 @@ const Skills =()=> {
                                         </Carousel>                                                   
                                         </Col>                                          
                                     </Row>
-
                                     <Row>
-                                        <p id='blurb'>A great developers true value lies in being able to understand the subject matter at hand<br/> and provide a technical expertise to bring ideas to fruition in an elegant and efficient manner.</p>
-                               
+                                        <p id='blurb'>
+                                            A great developers true value lies in being able to understand the subject matter at hand<br/> and provide a technical expertise to bring ideas to fruition in an elegant and efficient manner.
+                                        </p>                               
                                 </Row>
                             </Col>
                         </Row>

@@ -29,6 +29,10 @@ li{
   color: #ff79c6 !important;
 }
 
+.a #floaty{
+    opacity: .3 !important;
+}
+
 li.floaty:hover{
     
   animation-play-state: paused !important;
@@ -141,7 +145,19 @@ li:nth-child(14){
     animation-duration: 3s;
 }
 
+@media only screen and (min-width: 600px)  {
+    .img-fluid{
+        max-width: 55% !important;
+    }
+}
 
+.img-fluid{
+        border:2px solid #1D1F21;
+        box-shadow: 5px 5px 5px #1D1F21;
+        -moz-box-shadow: 5px 5px 5px #ccc;
+        -webkit-box-shadow: 5px 5px 5px #ccc;
+        -khtml-box-shadow: 5px 5px 5px #ccc;
+}
 
 @keyframes animate {
 

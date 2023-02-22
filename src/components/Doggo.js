@@ -16,7 +16,7 @@ export default class Doggos extends Component {
                                 <h2>Meet the <b>pack</b></h2>
                             </Col>
                     
-                            <Col >
+                            <Col>
                                 <p className='Dets'>Sterling, Scarlette & Sasha</p>
                                 <Carousel controls={false} >
                                 <Carousel.Item>
