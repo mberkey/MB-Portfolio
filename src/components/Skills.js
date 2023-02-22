@@ -27,7 +27,7 @@ const Skills =()=> {
                                 </Row>
                                 <Row>           
                                     <Col className='carousel-col'>
-                                        <Carousel activeIndex={index} onSelect={handleSelect} controls={true} nextIcon={<></>}>
+                                        <Carousel activeIndex={index} onSelect={handleSelect} controls={true} prevIcon={<></>} nextIcon={<></>} prevLabel={''} nextLabel={''}>
                                             <CarouselItem>
                                             Modern Front End solutions like <span style={popSkills}><b>React</b></span>, <span style={popSkills}><b>Typescript</b></span>, <span style={popSkills}><b>JavaScript.</b></span>                                
                                             </CarouselItem>
@@ -38,7 +38,7 @@ const Skills =()=> {
                                             <span style={popSkills}><b>SQL Database Administration</b></span> creating, maintaining, and optimizing queries, databases, tables, stored procedures, and views.  
                                             </CarouselItem>
                                             <CarouselItem>
-                                            Object Oriented Languages: <span style={popSkills}><b>C#</b></span> and <span style={popSkills}><b>VB.NET</b></span> utilized as creating <span style={popSkills}><b>APIs</b></span> and <span style={popSkills}><b>Web Services</b></span> for various applications. As well as standalone console applications.
+                                            Object Oriented Languages: <span style={popSkills}><b>C#</b></span> and <span style={popSkills}><b>VB.NET</b></span> used to create <span style={popSkills}><b>APIs</b></span> and <span style={popSkills}><b>Web Services</b></span> for various applications. As well as standalone console applications.
                                             </CarouselItem>
                                             <CarouselItem>
                                             Proficient in identifying and resolving issues in various applications and frameworks through effective <span style={popSkills}><b>debugging</b></span> techniques.
